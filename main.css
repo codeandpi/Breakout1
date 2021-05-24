@@ -1,0 +1,46 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: #ddd;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#dvGameBar {
+    background: #cccccc;
+    display: block;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+}
+
+#dvMessage {
+    float: left;
+    width: auto;
+    margin-left: 50px;
+}
+
+#dvScore,
+#dvHighScore {
+    float: right;
+    width: auto;
+    margin-right: 10px;
+}
+
+#lblScore,
+#lblHighScore,
+#lblMessage {
+    color: blue;
+    font-size: large;
+    margin-right: 10px;
+    margin-top: 5px;
+}
