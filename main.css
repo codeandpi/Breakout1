@@ -4,7 +4,7 @@ html {
 }
 
 canvas {
-    background: #ddd;
+    background: rgb(230, 17, 17);
     display: block;
     margin: 0 auto;
     overflow: hidden;
